@@ -1,0 +1,11 @@
+@import '../../styles/variables';
+
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  color: $white;
+  background-color: $gray-500;
+  padding: 2px 7px;
+}

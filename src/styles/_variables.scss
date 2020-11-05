@@ -1,0 +1,45 @@
+// Color system
+
+$white: #fff;
+$gray-200: #f5f5f5;
+$gray-300: #f0f0f0;
+$gray-500: #adacac;
+$gray-600: #8e8e8e;
+$gray-700: #707070;
+
+$black: #101010;
+$green: #299e37;
+$green-200: #f1faf3;
+$blue: #2484ee;
+$yellow: #ffc61a;
+$yellow-200: #fffaed;
+$red: #ff4f45;
+$red-200: #fff4f4;
+
+$primary: $green;
+$secondary: $gray-600;
+$success: $green;
+$info: $blue;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-200;
+$dark: $black;
+
+$font-color-primary: $black;
+$font-color-secondary: $gray-600;
+
+// Grid breakpoints
+
+$grid-breakpoint-sm: 577px;
+$grid-breakpoint-md: 769px;
+$grid-breakpoint-lg: 993px;
+
+// Spacing
+
+$page-padding-x: 40px;
+$page-padding-x-mobile: 16px;
+
+// Header
+
+$header-height: 100px;
+$header-height-mobile: 65px;

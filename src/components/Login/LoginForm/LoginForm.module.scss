@@ -1,0 +1,36 @@
+.form {
+  width: 300px;
+  background-color: #fff;
+
+  .title {
+    margin-bottom: 40px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+
+    .logo {
+      margin-right: 8px;
+      width: 24px;
+    }
+  }
+
+  .field {
+    margin-bottom: 24px;
+  }
+
+  .enterButton {
+    width: 100%;
+    background-color: #299e37;
+    border: none;
+    color: #fff;
+    padding: 14px 0;
+
+    &:hover {
+      background-color: darken(#299e37, 5%);
+    }
+
+    &:active {
+      background-color: darken(#299e37, 10%);
+    }
+  }
+}

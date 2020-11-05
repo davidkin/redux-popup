@@ -1,0 +1,73 @@
+@import '../../styles/variables';
+
+.inputWrapper {
+  width: 100%;
+  position: relative;
+  color: #adacac;
+
+  &.error {
+    color: $danger;
+
+    .input {
+      border: 1px solid $danger;
+    }
+  }
+
+  .errorMessage {
+    text-align: left;
+  }
+
+  .hint {
+    text-align: end;
+  }
+
+  .hint,
+  .errorMessage {
+    padding: 4px 12px;
+  }
+
+  .eye {
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 9px;
+  }
+}
+
+.input {
+  width: 100%;
+  background-color: $light;
+  padding: 13px;
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  &::placeholder {
+    color: #adacac;
+  }
+}
+
+.searchIcon {
+  position: absolute;
+  top: 13px;
+  left: 14px;
+}
+
+.smileIcon {
+  position: absolute;
+  right: 13px;
+  top: 11px;
+  cursor: pointer;
+}
+
+.search {
+  padding: 10px 20px 10px 40px;
+
+  @media (min-width: $grid-breakpoint-md) {
+    padding: 13px 20px 13px 40px;
+  }
+}
+
+.chat {
+  border-radius: 20px;
+}

@@ -1,0 +1,15 @@
+.listItem {
+  color: #8e8e8e;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+
+  .mark {
+    display: block;
+    width: 7px;
+    height: 7px;
+    background: #f0d05e;
+    border-radius: 2.8px;
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,38 @@
+@import '../../../styles/variables';
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+  height: $header-height-mobile;
+  padding: 0 $page-padding-x-mobile;
+
+  @media (min-width: $grid-breakpoint-md) {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 $page-padding-x;
+    height: $header-height;
+    background-color: $gray-200;
+  }
+
+  .title {
+    font-size: 16px;
+    color: #252525;
+
+    @media (min-width: $grid-breakpoint-md) {
+      font-size: 20px;
+    }
+  }
+
+  .logo {
+    margin-right: 16px;
+  }
+
+  .back {
+    position: absolute;
+    left: 20px;
+    top: 25px;
+  }
+}

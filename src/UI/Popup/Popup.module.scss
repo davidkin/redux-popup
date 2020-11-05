@@ -1,0 +1,44 @@
+@import '../../styles/variables';
+
+.popupBackground {
+  background: #0e0e0e;
+  opacity: 0.2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  z-index: 9999;
+  padding: 19px 0;
+  border-radius: 16px;
+  width: calc(100% - 32px);
+
+  .popupHeader {
+    position: relative;
+    margin-bottom: 25px;
+
+    .title {
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .close {
+      position: absolute;
+      top: 0;
+      right: 23px;
+    }
+  }
+
+  @media (min-width: $grid-breakpoint-sm) {
+    width: auto;
+  }
+}

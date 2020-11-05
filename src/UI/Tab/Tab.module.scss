@@ -1,0 +1,16 @@
+@import '../../styles/variables';
+
+.tab {
+  color: $secondary;
+  font-size: 13px;
+  position: relative;
+  white-space: nowrap;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+
+  &.active {
+    border-color: $success;
+    color: $success;
+  }
+}

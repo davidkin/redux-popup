@@ -1,0 +1,17 @@
+.controlMenu {
+  border-radius: 8px;
+  padding: 14px 16px;
+  width: 220px;
+  background-color: #252525;
+
+  .edit {
+    padding-bottom: 14px;
+    border-bottom: 1px solid #454545;
+    color: #fff;
+  }
+
+  .delete {
+    padding-top: 14px;
+    color: #ff4f45;
+  }
+}

@@ -1,0 +1,18 @@
+.folderForm {
+  width: 400px;
+  background-color: #fff;
+  padding: 0 16px 0;
+  border-radius: 16px;
+
+  .buttonBlock {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #f0f0f0;
+
+    .enterButton {
+      position: relative;
+      top: 8px;
+    }
+  }
+}

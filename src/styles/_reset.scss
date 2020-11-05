@@ -1,0 +1,67 @@
+@import './variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+}
+
+body {
+  max-width: 1980px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  background-color: $gray-200;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#__next {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p {
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+}
